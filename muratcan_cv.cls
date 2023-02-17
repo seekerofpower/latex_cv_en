@@ -12,7 +12,7 @@
 \RequirePackage{pgffor}
 \RequirePackage{titlesec}
 \RequirePackage{tikz}
-\RequirePackage{fontspec}
+%\RequirePackage{fontspec}
 \RequirePackage[left=0.75in,top=0.3in,right=0.75in,bottom=0.6in]{geometry} % Document margins
 \RequirePackage{hyperref}
 \RequirePackage{fontawesome}
@@ -51,7 +51,7 @@
 % can makebox also be used?
 \newcommand\headerview{
 \begin{minipage}{0.25\linewidth}
-    \profpic{0.22}{images/profilepicture}
+    \profpic{0.35}{images/Benjamin}
 \end{minipage}% 
 \hfill
 \begin{minipage}{0.45\linewidth}
